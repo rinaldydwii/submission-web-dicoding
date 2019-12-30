@@ -207,6 +207,18 @@ article .article-content {
     margin-bottom: 15px;
     padding: 15px 30px;
 }
+/* FOOTER */
+.app-footer {
+    text-align: center;
+    background-color: #576574;
+    color: #c8d6e5;
+    padding: 20px 0;
+}
+
+.app-footer p {
+    font-size: 1.4rem;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 360px) {
