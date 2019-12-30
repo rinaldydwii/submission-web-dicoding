@@ -42,8 +42,18 @@ body {
     background-color: #c8d6e5;
 }
 
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .app-header {
@@ -76,4 +86,34 @@ body {
 
 .app-header .nav-link:hover {
     background-color: #1d6dbe;
+}
+
+.app-main {
+    padding: 20px 0;
+}
+
+.app-main .content article, .app-main .sidebar {
+    background-color: #e5ebf1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.app-main .content article {
+    margin-bottom: 15px;
+}
+
+.app-main .container {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.app-main .content {
+    flex-basis: 70%;
+    margin-right: 15px;
+}
+
+.app-main .sidebar {
+    flex-basis: 30%;
+    position: sticky;
+    top: calc(96px + 20px);
 }
