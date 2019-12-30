@@ -64,6 +64,8 @@ p {
     margin: 0 auto;
 }
 
+/* HEADER */
+
 .app-header {
     background-color: #54a0ff;
     color: #fff;
@@ -71,6 +73,7 @@ p {
     position: sticky;
     top: 0;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    z-index: 999;
 }
 
 .app-header .header-brand {
