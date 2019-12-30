@@ -81,16 +81,19 @@ p {
     font-size: 2rem;
 }
 
+/* NAV */
+
 .app-header .nav {
     background-color: #2e86de;
 }
+
 .app-header .nav li {
     display: inline-block;
 }
 
 .app-header .nav-link {
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 10px 5px;
     color: #fff;
     display: block;
     transition: background-color 0.2s ease;
@@ -132,9 +135,15 @@ p {
     .container {
         padding: 0 20px;
     }
+
     .app-header .header-brand h1 {
         font-size: 3.6rem;
     }
+
+    .app-header .nav-link {
+        padding: 12px 10px;
+    }
+
 .app-main .container {
     flex-direction: row;
     align-items: flex-start;
