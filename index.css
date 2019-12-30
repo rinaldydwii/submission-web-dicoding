@@ -128,11 +128,23 @@ article .article-title {
     margin-bottom: 10px;
 }
 
+article .article-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .article-content .item {
     flex-basis: 100%;
     flex-grow: 1;
     max-width: 100%;
 }
+.article-content .item .item-content {
+    border: 1px solid #c8d6e5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
 .item .item-year {
     font-size: 1.2rem;
     color: #8395a7;
