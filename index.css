@@ -1,7 +1,7 @@
 /* Import Fonts Quicksand */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
 
-/* Reset CSS */
+/* RESET CSS */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,7 +24,7 @@ time, mark, audio, video {
     background:transparent;
 }
 
-/* Styles */
+/* BASE STYLES */
 
 * {
     box-sizing: border-box;
@@ -191,9 +191,13 @@ article .article-content {
     position: absolute;
 }
 
+/* ABOUT */
+
 #about .article-content {
     text-align: center;
 }
+
+/* PORTFOLIO */
 
 #portfolio .item .item-title a {
     color: #222f3e;
@@ -210,6 +214,8 @@ article .article-content {
     margin-bottom: 15px;
     padding: 15px 30px;
 }
+
+/* PROFILE */
 
 .profile .profile-img {
     height: 200px;
@@ -255,6 +261,7 @@ article .article-content {
     font-size: 1.8rem;
     vertical-align: middle;
 }
+
 /* FOOTER */
 .app-footer {
     text-align: center;
@@ -269,6 +276,7 @@ article .article-content {
 
 /* RESPONSIVE */
 
+/* FOR SCREEN GREATER THAN 360px */
 @media screen and (min-width: 360px) {
     #skill .item {
         flex-basis: 50%;
@@ -276,12 +284,14 @@ article .article-content {
     }
 }
 
+/* FOR SCREEN GREATER THAN 375px */
 @media screen and (min-width: 375px) {
     .app-header .header-brand h1 {
         font-size: 2.4rem;
     }
 }
 
+/* FOR SCREEN GREATER THAN 576px AND LESS THAN 767px */
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .article-content .item {
         flex-basis: 50%;
@@ -289,6 +299,7 @@ article .article-content {
     }
 }
 
+/* FOR SCREEN GREATER THAN 768px */
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.6rem;
@@ -310,10 +321,10 @@ article .article-content {
         padding: 12px 10px;
     }
 
-.app-main .container {
-    flex-direction: row;
-    align-items: flex-start;
-}
+    .app-main .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
     article .article-title {
         font-size: 2.4rem;
@@ -347,8 +358,8 @@ article .article-content {
 
     .item .item-meter, .item .item-meter span {
         height: 10px;
-}
-
+    }
+    
     #skill .article-content .item, #work .article-content .item, #portfolio .article-content .item {
         flex-basis: 50%;
         max-width: 50%;
@@ -362,25 +373,27 @@ article .article-content {
     }
 }
 
+/* FOR SCREEN GREATER THAN 992px */
 @media screen and (min-width: 992px) {
-.app-main .content {
-    flex-basis: 70%;
-}
+    .app-main .content {
+        flex-basis: 70%;
+    }
 
-.app-main .sidebar {
-    flex-basis: 30%;
-}
+    .app-main .sidebar {
+        flex-basis: 30%;
+    }
 
     .app-main .content article, .app-main .sidebar {
         padding: 20px;
     }
-    
+
     #skill .article-content .item {
         flex-basis: 25%;
         max-width: 25%;
     }
 }
 
+/* FOR SCREEN GREATER THAN 1200px */
 @media screen and (min-width: 1200px) {
     .article-content .item {
         flex-basis: 25% !important;
