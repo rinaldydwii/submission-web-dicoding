@@ -44,11 +44,12 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 a {
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 p {
