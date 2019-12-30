@@ -117,8 +117,15 @@ p {
 }
 
 /* CONTENT */
+
 .app-main .content article {
     margin-bottom: 15px;
+}
+
+article .article-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .article-content .item {
@@ -228,6 +235,10 @@ p {
     flex-direction: row;
     align-items: flex-start;
 }
+
+    article .article-title {
+        font-size: 2.4rem;
+    }
 
     .article-content .item {
         flex-basis: 50%;
