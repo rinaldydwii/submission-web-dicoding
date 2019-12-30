@@ -62,6 +62,7 @@ a {
     text-align: center;
     position: sticky;
     top: 0;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .app-header .header-brand {
@@ -96,6 +97,7 @@ a {
     background-color: #e5ebf1;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .app-main .content article {
