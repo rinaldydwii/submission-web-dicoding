@@ -200,6 +200,13 @@ article .article-content {
     margin-bottom: 5px;
 }
 
+/* SIDEBAR */
+
+.app-main .sidebar {
+    order: -1;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+}
 /* RESPONSIVE */
 
 @media screen and (min-width: 360px) {
@@ -286,6 +293,15 @@ article .article-content {
         flex-basis: 50%;
         max-width: 50%;
     }
+
+    .app-main .sidebar {
+        flex-basis: 25%;
+        position: sticky;
+        top: calc(109px + 15px);
+        order: 2;
+    }
+}
+
 @media screen and (min-width: 992px) {
 .app-main .content {
     flex-basis: 70%;
