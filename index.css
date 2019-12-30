@@ -73,8 +73,11 @@ p {
 }
 
 .app-header .header-brand {
-    padding: 15px;
-    font-size: 2.4rem;
+    padding: 10px 5px;
+}
+
+.app-header .header-brand h1 {
+    font-size: 2rem;
 }
 
 .app-header .nav {
@@ -111,6 +114,11 @@ p {
     margin-bottom: 15px;
 }
 
+@media screen and (min-width: 375px) {
+    .app-header .header-brand h1 {
+        font-size: 2.4rem;
+    }
+}
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.6rem;
@@ -122,6 +130,9 @@ p {
 
     .container {
         padding: 0 20px;
+    }
+    .app-header .header-brand h1 {
+        font-size: 3.6rem;
     }
 .app-main .container {
     flex-direction: row;
