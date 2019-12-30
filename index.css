@@ -51,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 2.4rem;
+}
+
 .container {
     padding: 0 20px;
     display: flex;
