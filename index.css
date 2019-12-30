@@ -103,13 +103,15 @@ p {
     background-color: #1d6dbe;
 }
 
+/* MAIN */
+
 .app-main {
     padding: 20px 0;
 }
 
 .app-main .content article, .app-main .sidebar {
     background-color: #e5ebf1;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -150,6 +152,8 @@ p {
 }
 
 }
+
+@media screen and (min-width: 992px) {
 .app-main .content {
     flex-basis: 70%;
     margin-right: 15px;
@@ -161,11 +165,10 @@ p {
     top: calc(96px + 20px);
 }
 
-.app-footer {
-    text-align: center;
-    background-color: #576574;
-    color: #fff;
-    padding: 10px 0;
+    .app-main .content article, .app-main .sidebar {
+        padding: 20px;
+    }
+    
 }
 
 .app-footer p {
