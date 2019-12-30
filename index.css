@@ -1,0 +1,79 @@
+/* Import Fonts Quicksand */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
+
+/* Reset CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    background-color: #c8d6e5;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+#header {
+    background-color: #54a0ff;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#header .header-brand {
+    padding: 15px;
+    font-size: 2.4rem;
+}
+
+#header .nav {
+    background-color: #2e86de;
+}
+#header li {
+    display: inline-block;
+}
+
+#header .nav-link {
+    text-decoration: none;
+    padding: 8px 10px;
+    color: #fff;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+#header .nav-link:hover {
+    background-color: #1d6dbe;
+}
