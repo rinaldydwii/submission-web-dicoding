@@ -116,8 +116,24 @@ p {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
+/* CONTENT */
 .app-main .content article {
     margin-bottom: 15px;
+}
+
+.article-content .item {
+    flex-basis: 100%;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 360px) {
+    #skill .item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 }
 
 @media screen and (min-width: 375px) {
@@ -125,6 +141,14 @@ p {
         font-size: 2.4rem;
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .article-content .item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.6rem;
@@ -151,8 +175,16 @@ p {
     align-items: flex-start;
 }
 
+    .article-content .item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 }
 
+    #skill .article-content .item, #work .article-content .item, #portfolio .article-content .item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 @media screen and (min-width: 992px) {
 .app-main .content {
     flex-basis: 70%;
@@ -169,8 +201,15 @@ p {
         padding: 20px;
     }
     
+    #skill .article-content .item {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
 }
 
-.app-footer p {
-    font-size: 1.4rem;
+@media screen and (min-width: 1200px) {
+    .article-content .item {
+        flex-basis: 25% !important;
+        max-width: 25% !important;
+    }
 }
