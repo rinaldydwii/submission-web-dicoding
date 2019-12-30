@@ -46,7 +46,7 @@ body {
     padding: 0 20px;
 }
 
-#header {
+.app-header {
     background-color: #54a0ff;
     color: #fff;
     text-align: center;
@@ -54,19 +54,19 @@ body {
     top: 0;
 }
 
-#header .header-brand {
+.app-header .header-brand {
     padding: 15px;
     font-size: 2.4rem;
 }
 
-#header .nav {
+.app-header .nav {
     background-color: #2e86de;
 }
-#header li {
+.app-header li {
     display: inline-block;
 }
 
-#header .nav-link {
+.app-header .nav-link {
     text-decoration: none;
     padding: 8px 10px;
     color: #fff;
@@ -74,6 +74,6 @@ body {
     transition: background-color 0.2s ease;
 }
 
-#header .nav-link:hover {
+.app-header .nav-link:hover {
     background-color: #1d6dbe;
 }
