@@ -305,13 +305,10 @@ article .article-content {
 @media screen and (min-width: 992px) {
 .app-main .content {
     flex-basis: 70%;
-    margin-right: 15px;
 }
 
 .app-main .sidebar {
     flex-basis: 30%;
-    position: sticky;
-    top: calc(96px + 20px);
 }
 
     .app-main .content article, .app-main .sidebar {
