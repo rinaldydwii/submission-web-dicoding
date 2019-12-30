@@ -117,3 +117,14 @@ a {
     position: sticky;
     top: calc(96px + 20px);
 }
+
+.app-footer {
+    text-align: center;
+    background-color: #576574;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.app-footer p {
+    font-size: 1.4rem;
+}
