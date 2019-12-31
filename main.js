@@ -1,5 +1,20 @@
 console.log("Javascript started");
 
+const skills = [
+    0.8,// html
+    0.75,// css
+    0.7,// javascript
+    0.65,// php
+    0.6,// sass
+    0.5,// firebase
+    0.55,// laravel
+    0.65,// reactjs
+    0.55,// react native
+    0.55,// java
+    0.75,// photoshop
+    0.65// figma
+]
+
 window.onload = function(){
     document.querySelectorAll(".collapseable")
         .forEach(function(item) {
@@ -23,5 +38,12 @@ window.onload = function(){
                     behavior: "smooth",
                 })
             })
+        })
+    document.querySelectorAll(".item-meter")
+        .forEach(function(item, index) {
+            // console.log(skills[index])
+            const width = (skills[index] * 100) + "%";
+            // console.log(width);
+            item.children[0].style.width = width;
         })
 }
